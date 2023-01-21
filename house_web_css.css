@@ -1,0 +1,666 @@
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+@media screen and (min-width: 1001px){
+
+  .menu{
+    display:flex;
+  }
+  nav{
+    display: none;
+  }
+
+
+  /* type 房型 */
+
+  .one{
+    margin: 2px;
+    margin-bottom: 2px;
+    margin-top: 1vh;
+    margin-right: 10px;
+  }
+
+  .one>img{
+    width: 60vh;
+  }
+
+  .one>p{
+    width: 60vh;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    font-size: 18pt;
+  }
+
+
+
+  .two{
+    margin: 2px;
+    margin-bottom: 2px;
+    margin-top: 1vh;
+    margin-right: 10px;
+  }
+  .two>img{
+    width: 60vh;
+  }
+
+  .two>p{
+    width: 60vh;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    font-size: 18pt;
+  }
+
+
+  .three{
+    margin: 2px;
+    margin-bottom: 2px;
+    margin-top: 1vh;
+    margin-right: 10px;
+  }
+  .three>img{
+    width: 60vh;
+  }
+
+  .three>p{
+    width: 60vh;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    font-size: 18pt;
+  }
+
+
+  .four{
+    margin: 2px;
+    margin-bottom: 2px;
+    margin-top: 1vh;
+    margin-right: 10px;
+  }
+  .four>img{
+    width: 60vh;
+  }
+
+  .four>p{
+    width: 60vh;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    font-size: 18pt;
+  }
+
+
+
+
+
+
+/* index_information資訊 */
+
+  .information>h4{
+    width: 30vh;
+    padding: 5vh 40px 0px 40px
+  
+   }
+
+   .information>ul{
+    width: 56.4%;
+
+   }
+   
+   .type{
+    width: 101vh;
+   }
+
+   /* services 圖1 */
+   .services_img{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    position:relative;
+
+    }
+  .services_img>img{
+  display: block;
+  width: 40%;
+  padding-right: 50%;
+  z-index: 1;
+
+    }
+
+    .services_p{
+      display: flex;
+      background-color: rgb(218, 241, 255);
+      width: 60%;
+      height: 120%;
+      position: absolute;
+      bottom: -55px;
+      right: 120px;
+
+    }
+
+    .services_p>ul{
+      padding-left: 230px;
+      align-self: center;
+    }
+
+       /* services 圖2 */
+       .sit{
+        display: flex;
+        width: 70%;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 200px;
+        position:relative
+
+       }
+
+       .sit>img{
+        display: block;
+        width: 40%;
+        padding-left: 40%;
+        z-index: 1;
+
+       }
+
+       .sit_p{
+        display: flex;
+        background-color: rgb(255, 237, 222);
+        width: 40%;
+        height: 80%;
+        position: absolute;
+        left: 130px;
+        top: 60px;
+       }
+
+       .sit_p>ul{
+        align-self: center;
+        padding-left: 80px;
+       }
+
+
+         /* About_us  */
+       .au{
+       display: flex;
+       background-color: rgb(211, 211, 211);
+       width: 100%;
+       height: 50vh;
+       margin-top: 10vh;}
+
+       .au>ul{
+        display: flex;
+        list-style: none;
+        margin: 0 auto;
+
+       }
+
+       .auio{
+        padding-right: 10vh;
+        padding-top: 5vh;
+        height: 80%;
+        position: relative;
+       }
+
+       .auiop{
+        font-size: 3vh;
+        display: block;
+        width: 55%;
+        color: white;
+        text-align: center;
+        position: absolute;
+        top: 45%;
+        left: 12%;
+
+       }
+       
+
+       .auit{
+        padding-top: 5vh;
+        height: 80%;
+       }
+
+       .aupt{
+        font-size: 3vh;
+        display: block;
+        width: 60%;
+        color: white;
+        text-align: center;
+        position: absolute;
+         top: 40%;
+         left: 20%;
+
+       }
+
+
+
+
+
+
+
+}
+
+
+
+@media screen and (max-width: 1000px){
+
+
+
+
+ .menu{
+    display: none;
+  }
+
+
+nav{
+  height: 0px;
+  
+}
+ 
+body{
+  overflow-x :  hidden;
+}
+
+
+ #menuToggle
+ {
+   display: block;
+   position: relative;
+   top: 50px;
+   /* left: 50px; */
+   padding-left: 50px;
+   
+   z-index: 1;
+   
+   -webkit-user-select: none;
+   user-select: none;
+ }
+ 
+ #menuToggle a
+ {
+   text-decoration: none;
+   color: #232323;
+   
+   transition: color 0.3s ease;
+ }
+ 
+ #menuToggle a:hover
+ {
+   color: tomato;
+ }
+ 
+ 
+ #menuToggle input
+ {
+   display: block;
+   width: 40px;
+   height: 32px;
+   position: absolute;
+   top: -7px;
+   /* left: -5px; */
+   padding-left: 45px;
+   
+   cursor: pointer;
+   
+   opacity: 0; /* hide this */
+   z-index: 2; /* and place it over the hamburger */
+   
+   -webkit-touch-callout: none;
+ }
+ 
+ /*
+  * Just a quick hamburger
+  */
+ #menuToggle span
+ {
+   display: block;
+   width: 33px;
+   height: 4px;
+   margin-bottom: 5px;
+   position: relative;
+   
+   background: #cdcdcd;
+   border-radius: 3px;
+   
+   z-index: 1;
+   
+   transform-origin: 4px 0px;
+   
+   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+               opacity 0.55s ease;
+ }
+ 
+ #menuToggle span:first-child
+ {
+   transform-origin: 0% 0%;
+ }
+ 
+ #menuToggle span:nth-last-child(2)
+ {
+   transform-origin: 0% 100%;
+ }
+ 
+ /* 
+  * Transform all the slices of hamburger
+  * into a crossmark.
+  */
+ #menuToggle input:checked ~ span
+ {
+   opacity: 1;
+   transform: rotate(45deg) translate(-2px, -1px);
+   background: #232323;
+ }
+ 
+ /*
+  * But let's hide the middle one.
+  */
+ #menuToggle input:checked ~ span:nth-last-child(3)
+ {
+   opacity: 0;
+   transform: rotate(0deg) scale(0.2, 0.2);
+ }
+ 
+ /*
+  * Ohyeah and the last one should go the other direction
+  */
+ #menuToggle input:checked ~ span:nth-last-child(2)
+ {
+   transform: rotate(-45deg) translate(0, -1px);
+ }
+ 
+ /*
+  * Make this absolute positioned
+  * at the top left of the screen
+  */
+ #menu
+ {
+   position: absolute;
+   width: 100%;
+   height: 100vh;
+   margin: -100px 0 0 -50px;
+   padding: 50px;
+   padding-top: 125px;
+   
+   background: #ededed;
+   list-style-type: none;
+   -webkit-font-smoothing: antialiased;
+   /* to stop flickering of text in safari */
+   
+   transform-origin: 0% 0%;
+   transform: translate(-100%, 0);
+   
+   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+ }
+ 
+ #menu li
+ {
+   padding: 10px 0;
+   font-size: 22px;
+ }
+ 
+ /*
+  * And let's slide it in from the left
+  */
+ #menuToggle input:checked ~ ul
+ {
+   transform: none;
+ }
+
+
+
+/* index_information資訊 */
+
+ .information{
+  flex-direction: column;
+
+ }
+
+ .information>h4{
+  margin: 0 auto;
+  width: 80%;
+  padding: 0 40px;
+ }
+
+ .information>ul{
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 5vh;
+  width: 70%;
+ }
+
+ .information img{
+  padding-top: 3vh;
+
+ }
+
+
+ /* services 圖1 */
+
+  .services_img{
+    display: flex;
+    flex-direction: column;
+  } 
+
+  .services_img>img{
+    
+    width: 80%;
+    margin: 0 auto;
+    
+  }
+
+  .services_p{
+    display: flex;
+    background-color: rgb(218, 241, 255);
+    width: 75%;
+    height: 120%;
+    margin: 0 auto;
+    margin-top: 2vh;
+    padding: 5vh;
+  }
+
+  .services_p>ul>h1{
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .services_p>ul>p{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3vh;
+  }
+
+
+  /* services 圖2 */
+
+
+
+  .sit{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6vh;
+  } 
+
+  .sit>img{
+    
+    width: 80%;
+    margin: 0 auto;
+    
+  }
+
+  .sit_p{
+    display: flex;
+    background-color: rgb(255, 237, 222);
+    width: 75%;
+    height: 120%;
+    margin: 0 auto;
+    margin-top: 2vh;
+    padding: 5vh;
+  }
+
+  .sit_p>ul>h1{
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .sit_p>ul>p{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3vh;
+  }
+
+  /* About_us  */
+
+  .au{
+    display: flex;
+    background-color: rgb(211, 211, 211);
+    width: 100%;
+    height: 100%;
+    margin: 10vh;
+    margin: 0 auto;
+    padding-bottom: 5vh;
+  }
+
+  .au>ul{
+    list-style:none;
+    margin: 0 auto;
+
+  }
+
+  .au li{
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .au img{
+
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5vh;
+
+   }
+
+   .auiop{
+    font-size: 3vh;
+    display: block;
+    width: 55%;
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 22%;
+
+   }
+
+
+   .aupt{
+    font-size: 3vh;
+    display: block;
+    width: 60%;
+    color: white;
+    text-align: center;
+    position: absolute;
+     top: 45%;
+     left: 20%;
+
+   }
+
+
+
+  /* type 房型 */
+
+
+  .one{
+    margin-bottom: 1vh;
+  }
+
+  .one>img{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .one>p{
+    width: 90%;
+    
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    font-size: 18pt;
+  }
+
+
+.two{
+  margin-bottom: 1vh;
+}
+
+  .two>img{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .two>p{
+    width: 90%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    font-size: 18pt;
+  }
+
+
+
+  .three{
+    margin-bottom: 1vh;
+  }
+
+  .three>img{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .three>p{
+    width: 90%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    font-size: 18pt;
+  }
+
+  .four>img{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .four>p{
+    width: 90%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    font-size: 18pt;
+  }
+
+
+
+
+
+
+
+  }
+  
+
+
+
+
+
