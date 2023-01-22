@@ -240,14 +240,106 @@
          left: 20%;
 
        }
+        /* sport */
+
+        /* sport1 */
+        .sportOne{
+          list-style: none;
+          display: flex;
+          justify-content: center;
+         }
+  
+         .sportOneP{
+          background-color:rgb(199, 199, 199);
+          width: 400px;
+          height:400px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+  
+         }
+  
+         .sportOne>li>img{
+           height: 400px;
+           display: block;
+  
+         }
+  
+            /* sport2 */
+            .sportTwo{
+              list-style: none;
+              display: flex;
+              justify-content: center;
+  
+            }
+  
+            .sportTwoP{
+            background-color:rgb(199, 199, 199);
+            width: 400px;
+            height:400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+  
+          .sportTwo>li>img{
+            height: 400px;
+           display: block;
+          }
+  
+  
+            /* sport3 */
+  
+            .sportThree{
+              list-style: none;
+              display: flex;
+              justify-content: center;
+  
+            }
+  
+            .sportThreeP{
+            background-color:rgb(199, 199, 199);
+            width: 400px;
+            height:400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+  
+          .sportThree>li>img{
+            height: 400px;
+           display: block;
+          }
+  
+          
+  
+  
+             /* sport4 */
+  
+             .sportFour{
+              list-style: none;
+              display: flex;
+              justify-content: center;
+  
+            }
+  
+            .sportFourP{
+            background-color:rgb(199, 199, 199);
+            width: 400px;
+            height:400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+  
+          .sportFour>li>img{
+            height: 400px;
+           display: block;
+          }
+  
+  }
 
 
-
-
-
-
-
-}
 
 
 
@@ -650,6 +742,141 @@ body{
     left: 5%;
     font-size: 18pt;
   }
+
+
+    /* sport */
+
+  /* sport1 */
+  .sportOne{
+    list-style: none;
+    position: relative;
+    
+  }
+
+  .sportOneP{
+    position: absolute;
+    width: 80%;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+  }
+
+  .sportOneP>h2{
+    font-size: 55px;
+
+  }
+
+  .sportOne>li>img{
+
+    display: block;
+    width: 100%;
+    height: auto;
+
+  }
+
+
+   /* sport2 */
+
+   .sportTwo{
+    list-style: none;
+    position: relative;
+    
+  }
+
+  .sportTwoP{
+    position: absolute;
+    width: 80%;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+  }
+
+  .sportTwoP>h2{
+    font-size: 55px;
+
+  }
+
+  .sportTwo>li>img{
+
+    display: block;
+    width: 100%;
+    height: auto;
+
+  }
+
+
+   /* sport3 */
+
+
+   .sportThree{
+    list-style: none;
+    position: relative;
+    
+  }
+
+  .sportThreeP{
+    position: absolute;
+    width: 80%;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+  }
+
+  .sportThreeP>h2{
+    font-size: 55px;
+
+  }
+
+  .sportThree>li>img{
+
+    display: block;
+    width: 100%;
+    height: auto;
+
+  }
+
+  /* sport4 */
+
+
+  .sportFour{
+    list-style: none;
+    position: relative;
+    
+  }
+
+  .sportFourP{
+    position: absolute;
+    width: 80%;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
+  }
+
+  .sportFourP>h2{
+    font-size: 55px;
+
+  }
+
+  .sportFour>li>img{
+
+    display: block;
+    width: 100%;
+    height: auto;
+
+  }
+
+
+
+
+
 
 
 
