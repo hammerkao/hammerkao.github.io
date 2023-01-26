@@ -23,6 +23,38 @@
   }
 
 
+
+  /* 選單 */
+
+  .HeaderMenu>a{
+    color: rgb(255, 255, 255);
+    transition: 1s;
+  }
+
+  .HeaderMenu>a:hover{
+    color: rgb(46, 46, 46);
+
+  }
+
+
+
+  .SingIn>a{
+    color: white;
+    transition: 1s;
+  }
+
+  .SingIn>a:hover{
+    color: rgb(46, 46, 46);
+
+  }
+
+
+
+
+
+
+
+
   /* type 房型 */
 
   .one{
@@ -111,6 +143,42 @@
 
 
 
+/* index_information資訊1 */
+
+    .Inf_One{
+      display: flex;
+      margin: 0 auto;
+      margin-top: 8vh;
+      width:55vw;
+      margin-bottom: 8vh;
+
+    }
+
+    .Inf_One_Text{
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      padding-right: 60px;
+      justify-content: center;
+
+    }
+
+    .Inf_One_Text>h4{
+      margin-top: 10px;
+    
+    }
+
+
+    .Inf_One_Img{
+      display: block;
+      width: 80%;
+    }
+
+    .Inf_One_Img>img{
+      max-width: 100%;
+    }
+
+
 
 
       /* index_灰底文字 */
@@ -132,6 +200,78 @@
         transition: all 1s;
 
       }
+
+       /* services 圖1 */
+   .services_img{
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    position:relative;
+
+    }
+  .services_img>img{
+  display: block;
+  width: 40%;
+  padding-right: 50%;
+  z-index: 1;
+
+    }
+
+    .services_p{
+      display: flex;
+      background-color: rgb(218, 241, 255);
+      width: 60%;
+      height: 120%;
+      position: absolute;
+      bottom: -55px;
+      right: 120px;
+
+    }
+
+    .services_p>ul{
+      padding-left: 230px;
+      align-self: center;
+    }
+
+       /* services 圖2 */
+       .sit{
+        display: flex;
+        width: 70%;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 200px;
+        position:relative
+
+       }
+
+       .sit>img{
+        display: block;
+        width: 40%;
+        padding-left: 40%;
+        z-index: 1;
+
+       }
+
+       .sit_p{
+        display: flex;
+        background-color: rgb(255, 237, 222);
+        width: 40%;
+        height: 80%;
+        position: absolute;
+        left: 110px;
+        top: 60px;
+       }
+
+       .sit_p>ul{
+        align-self: center;
+        padding-left: 80px;
+       }
+      
+
 
 
 
@@ -474,28 +614,51 @@ body{
 
 /* index_information資訊 */
 
- .information{
+
+
+/* index_information資訊1 */
+
+.Inf_One{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  
+
+}
+
+.Inf_One_Text{
+  display: flex;
   flex-direction: column;
-
- }
-
- .information>h4{
+  align-items: center;
+  
   margin: 0 auto;
-  width: 80%;
-  padding: 0 40px;
- }
+  
 
- .information>ul{
-  flex-direction: column;
+}
+
+.Inf_One_Text{
+  margin-top: 20px;
+  width: 90%;
+
+}
+
+.Inf_One_Text>h4{
+ width: 90%;
+ margin: 0 auto;
+ text-align: center; 
+}
+
+.Inf_One_Img>img{
+
+}
+
+
+.Inf_One_Img>img{
+  display: block;
   margin: 0 auto;
-  margin-top: 5vh;
-  width: 70%;
- }
+  width: 95%;
+}
 
- .information img{
-  padding-top: 3vh;
-
- }
 
 
  /* services 圖1 */
