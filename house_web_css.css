@@ -109,90 +109,30 @@
 
 /* index_information資訊 */
 
-  .information>h4{
-    width: 30vh;
-    padding: 5vh 40px 0px 40px
+
+
+
+
+      /* index_灰底文字 */
+      .Learn{
+      transition: all 1s;
+    }
+
+      .Learn{
+        border: 1px solid white;
+        border-radius: 5px;
+        color: white;
   
-   }
 
-   .information>ul{
-    width: 56.4%;
+      }
+      .Learn:hover{
+        background-color:rgb(207, 184, 124) ;
+        border-color: rgb(207, 184, 124) ;
+        color: black;
+        transition: all 1s;
 
-   }
-   
-   .type{
-    width: 101vh;
-   }
+      }
 
-   /* services 圖1 */
-   .services_img{
-    
-    display: flex;
-    flex-wrap: wrap;
-    width: 70%;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 20px;
-    position:relative;
-
-    }
-  .services_img>img{
-  display: block;
-  width: 40%;
-  padding-right: 50%;
-  z-index: 1;
-
-    }
-
-    .services_p{
-      display: flex;
-      background-color: rgb(218, 241, 255);
-      width: 60%;
-      height: 120%;
-      position: absolute;
-      bottom: -55px;
-      right: 120px;
-
-    }
-
-    .services_p>ul{
-      padding-left: 230px;
-      align-self: center;
-    }
-
-       /* services 圖2 */
-       .sit{
-        display: flex;
-        width: 70%;
-        justify-content: center;
-        margin: 0 auto;
-        margin-top: 200px;
-        position:relative
-
-       }
-
-       .sit>img{
-        display: block;
-        width: 40%;
-        padding-left: 40%;
-        z-index: 1;
-
-       }
-
-       .sit_p{
-        display: flex;
-        background-color: rgb(255, 237, 222);
-        width: 40%;
-        height: 80%;
-        position: absolute;
-        left: 130px;
-        top: 60px;
-       }
-
-       .sit_p>ul{
-        align-self: center;
-        padding-left: 80px;
-       }
 
 
          /* About_us  */
