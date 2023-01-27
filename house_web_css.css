@@ -57,15 +57,31 @@
 
   /* type 房型 */
 
+
+  .type{
+    width: 80%;
+
+  }
+
   .one{
     margin: 2px;
     margin-bottom: 2px;
     margin-top: 1vh;
     margin-right: 10px;
+    overflow:hidden;
+    
   }
 
   .one>img{
     width: 60vh;
+    transition: all 1s;
+  }
+  .one:hover img{
+    transform:scale(1.1,1.1);
+    filter:alpha(Opacity=70);
+    -moz-opacity:0.7;
+    opacity: 0.7;
+    
   }
 
   .one>p{
@@ -74,7 +90,37 @@
     position: absolute;
     bottom: 0;
     font-size: 18pt;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    transition: all 1s;
+
   }
+
+
+  .one:hover p{
+    background-color: rgb(207, 184, 124);
+    color: rgb(0, 0, 0);
+  }
+
+  .one_Hover{
+    font-size: 32px;
+    width: 35vh;
+    position: absolute;
+    text-align: center;
+    top:25%;
+    left: 20%;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+    transition: all 1s;
+  }
+
+  .one:hover .one_Hover{
+    background-color: rgb(255, 255, 255,0.5);
+    color: rgb(0, 0, 0);
+    
+    
+  }
+
 
 
 
@@ -83,10 +129,41 @@
     margin-bottom: 2px;
     margin-top: 1vh;
     margin-right: 10px;
+    overflow:hidden;
   }
   .two>img{
     width: 60vh;
+    transition: all 1s;
   }
+
+  .two:hover img{
+    transform:scale(1.1,1.1);
+    filter:alpha(Opacity=70);
+    -moz-opacity:0.7;
+    opacity: 0.7;
+    
+  }
+
+  .two>p{
+    width: 60vh;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    font-size: 18pt;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    transition: all 1s;
+
+  }
+
+
+  .two:hover p{
+    background-color: rgb(207, 184, 124);
+    color: rgb(0, 0, 0);
+  }
+
+
+
 
   .two>p{
     width: 60vh;
@@ -97,15 +174,68 @@
   }
 
 
+
+  .two_Hover{
+    font-size: 32px;
+    width: 40vh;
+    position: absolute;
+    text-align: center;
+    top:20%;
+    left: 18%;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+    transition: all 1s;
+  }
+
+  .two:hover .two_Hover{
+    background-color: rgb(255, 255, 255,0.5);
+    color: rgb(0, 0, 0);
+    
+  }
+
+
+
+
   .three{
     margin: 2px;
     margin-bottom: 2px;
     margin-top: 1vh;
     margin-right: 10px;
+    overflow:hidden;
   }
   .three>img{
     width: 60vh;
+    transition: all 1s;
   }
+
+  .three:hover img{
+    transform:scale(1.1,1.1);
+    filter:alpha(Opacity=70);
+    -moz-opacity:0.7;
+    opacity: 0.7;
+    
+  }
+
+  .three>p{
+    width: 60vh;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    font-size: 18pt;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    transition: all 1s;
+
+  }
+
+
+  .three:hover p{
+    background-color: rgb(207, 184, 124);
+    color: rgb(0, 0, 0);
+  }
+
+
+
 
   .three>p{
     width: 60vh;
@@ -116,15 +246,66 @@
   }
 
 
+
+  .three_Hover{
+    font-size: 32px;
+    width: 40vh;
+    position: absolute;
+    text-align: center;
+    top:30%;
+    left: 18%;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+    transition: all 1s;
+  }
+
+  .three:hover .three_Hover{
+    background-color: rgb(255, 255, 255,0.5);
+    color: rgb(0, 0, 0);
+    
+  }
+
+
   .four{
     margin: 2px;
     margin-bottom: 2px;
     margin-top: 1vh;
     margin-right: 10px;
+    overflow:hidden;
   }
   .four>img{
     width: 60vh;
+    transition: all 1s;
   }
+
+  .four:hover img{
+    transform:scale(1.1,1.1);
+    filter:alpha(Opacity=70);
+    -moz-opacity:0.7;
+    opacity: 0.7;
+    
+  }
+
+  .four>p{
+    width: 60vh;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    font-size: 18pt;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    transition: all 1s;
+
+  }
+
+
+  .four:hover p{
+    background-color: rgb(207, 184, 124);
+    color: rgb(0, 0, 0);
+  }
+
+
+
 
   .four>p{
     width: 60vh;
@@ -136,7 +317,23 @@
 
 
 
+  .four_Hover{
+    font-size: 32px;
+    width: 40vh;
+    position: absolute;
+    text-align: center;
+    top:30%;
+    left: 18%;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+    transition: all 1s;
+  }
 
+  .four:hover .four_Hover{
+    background-color: rgb(255, 255, 255,0.5);
+    color: rgb(0, 0, 0);
+    
+  }
 
 
 /* index_information資訊 */
@@ -179,9 +376,62 @@
     }
 
 
+    /* index_information資訊2*/
+
+    .Inf_Two{
+      display: flex;
+      margin: 0 auto;
+      margin-top: 5vh;
+      width:55vw;
+      margin-bottom: 10vh;
+    }
+
+    .Inf_Two_Img{
+      display: block;
+      width: 80%;
+    }
+
+    .Inf_Two_Img>img{
+      max-width: 100%;
+    }
+
+
+    .Inf_Two_Text{
+      display: flex;
+      flex-direction: column;
+      width: 70%;
+      padding-left: 60px;
+      justify-content: center;
+
+    }
+
+
+
 
 
       /* index_灰底文字 */
+
+
+      .GrayText{
+        height: 500px;
+        margin-top: 100px;
+      }
+
+      .GrayText>h1{
+        font-size: 6.5vh;
+        width:50vw;
+      }
+
+      .GrayText>p{
+        font-size: 18px;
+        width:50vw;
+      }
+
+      .GrayText_Border{
+        width: 50vw;
+      }
+
+
       .Learn{
       transition: all 1s;
     }
@@ -630,10 +880,8 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
-  
   margin: 0 auto;
   
-
 }
 
 .Inf_One_Text{
@@ -648,9 +896,6 @@ body{
  text-align: center; 
 }
 
-.Inf_One_Img>img{
-
-}
 
 
 .Inf_One_Img>img{
@@ -658,6 +903,94 @@ body{
   margin: 0 auto;
   width: 95%;
 }
+
+/* index_information資訊2 */
+
+.Inf_Two{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+
+.Inf_Two_Text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  
+}
+
+.Inf_Two_Text{
+  margin-top: 20px;
+  width: 90%;
+
+}
+
+.Inf_Two_Text>h4{
+ width: 90%;
+ margin: 0 auto;
+ text-align: center; 
+}
+
+
+.Inf_Two_Img>img{
+  display: block;
+  margin: 0 auto;
+  width: 95%;
+}
+
+
+  /* index_灰底文字 */
+
+
+  .GrayText{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    
+  }
+
+  .GrayText>h1{
+    font-size: 6vh;
+    width:80vw;
+  }
+
+  .GrayText>p{
+    font-size: 16px;
+    width:80vw;
+  }
+
+  .GrayText_Border{
+    width: 80vw;
+   
+  }
+
+
+
+  .Learn{
+  transition: all 1s;
+}
+
+  .Learn{
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+
+
+  }
+  .Learn:hover{
+    background-color:rgb(207, 184, 124) ;
+    border-color: rgb(207, 184, 124) ;
+    color: black;
+    transition: all 1s;
+
+  }
+
+
+
 
 
 
@@ -797,77 +1130,226 @@ body{
 
 
   .one{
-    margin-bottom: 1vh;
+    max-width: 95%;
+    margin-bottom: 20px;
+    overflow:hidden;
+    
   }
 
   .one>img{
-    width: 90%;
-    margin: 0 auto;
+    
+    max-width: 100%;
+    transition: all 1s;
+  }
+  .one:hover img{
+    transform:scale(1.1,1.1);
+    filter:alpha(Opacity=70);
+    -moz-opacity:0.7;
+    opacity: 0.7;
+    
   }
 
   .one>p{
-    width: 90%;
-    
+    width: 100%;
     text-align: center;
     position: absolute;
     bottom: 0;
-    left: 5%;
     font-size: 18pt;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    transition: all 1s;
+
   }
 
 
-.two{
-  margin-bottom: 1vh;
-}
+  .one:hover p{
+    background-color: rgb(207, 184, 124);
+    color: rgb(0, 0, 0);
+  }
+
+  .one_Hover{
+    font-size: 32px;
+    width: 35vh;
+    position: absolute;
+    text-align: center;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+    transition: all 1s;
+  }
+
+  .one:hover .one_Hover{
+    background-color: rgb(255, 255, 255,0.5);
+    color: rgb(0, 0, 0);
+    
+  }
+
+
+
+
+
+  .two{
+    max-width: 95%;
+    margin-bottom: 20px;
+    overflow:hidden;
+  }
 
   .two>img{
-    width: 90%;
-    margin: 0 auto;
+    max-width: 100%;
+    transition: all 1s;
+  }
+  .two:hover img{
+    transform:scale(1.1,1.1);
+    filter:alpha(Opacity=70);
+    -moz-opacity:0.7;
+    opacity: 0.7;
   }
 
   .two>p{
-    width: 90%;
+    width: 100%;
     text-align: center;
     position: absolute;
     bottom: 0;
-    left: 5%;
     font-size: 18pt;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    transition: all 1s;
+  }
+
+
+  .two:hover p{
+    background-color: rgb(207, 184, 124);
+    color: rgb(0, 0, 0);
+  }
+
+  .two_Hover{
+    font-size: 32px;
+    width: 35vh;
+    position: absolute;
+    text-align: center;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+    transition: all 1s;
+  }
+
+  .two:hover .two_Hover{
+    background-color: rgb(255, 255, 255,0.5);
+    color: rgb(0, 0, 0);
   }
 
 
 
   .three{
-    margin-bottom: 1vh;
+    max-width: 95%;
+    margin-bottom: 20px;
+    overflow:hidden;
   }
 
   .three>img{
-    width: 90%;
-    margin: 0 auto;
+    max-width: 100%;
+    transition: all 1s;
+  }
+  .three:hover img{
+    transform:scale(1.1,1.1);
+    filter:alpha(Opacity=70);
+    -moz-opacity:0.7;
+    opacity: 0.7;
   }
 
   .three>p{
-    width: 90%;
+    width: 100%;
     text-align: center;
     position: absolute;
     bottom: 0;
-    left: 5%;
     font-size: 18pt;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    transition: all 1s;
+  }
+
+
+  .three:hover p{
+    background-color: rgb(207, 184, 124);
+    color: rgb(0, 0, 0);
+  }
+
+  .three_Hover{
+    font-size: 32px;
+    width: 35vh;
+    position: absolute;
+    text-align: center;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+    transition: all 1s;
+  }
+
+  .three:hover .three_Hover{
+    background-color: rgb(255, 255, 255,0.5);
+    color: rgb(0, 0, 0);
+  }
+
+
+
+  .four{
+    max-width: 95%;
+    margin-bottom: 20px;
+    overflow:hidden;
   }
 
   .four>img{
-    width: 90%;
-    margin: 0 auto;
+    max-width: 100%;
+    transition: all 1s;
+  }
+  .four:hover img{
+    transform:scale(1.1,1.1);
+    filter:alpha(Opacity=70);
+    -moz-opacity:0.7;
+    opacity: 0.7;
   }
 
   .four>p{
-    width: 90%;
+    width: 100%;
     text-align: center;
     position: absolute;
     bottom: 0;
-    left: 5%;
     font-size: 18pt;
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    transition: all 1s;
   }
 
+
+  .four:hover p{
+    background-color: rgb(207, 184, 124);
+    color: rgb(0, 0, 0);
+  }
+
+  .four_Hover{
+    font-size: 32px;
+    width: 35vh;
+    position: absolute;
+    text-align: center;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 255, 255, 0);
+    transition: all 1s;
+  }
+
+  .four:hover .four_Hover{
+    background-color: rgb(255, 255, 255,0.5);
+    color: rgb(0, 0, 0);
+  }
 
     /* sport */
 
