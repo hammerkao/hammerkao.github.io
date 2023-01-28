@@ -336,6 +336,34 @@
   }
 
 
+/* index_90th logo */
+
+
+.anniversary{
+  position: relative;
+  width: 16%;
+  top: 15%;
+  left: 20%;
+  z-index: 0;
+}
+
+.anniversary>img{
+  
+  max-width: 100%;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.185);
+  animation: th 3s ease-in-out infinite;
+
+}
+
+@keyframes th {
+  0%{transform: scale(1);}
+  50%{transform: scale(1.05);}
+  100%{transform: scale(1);}
+}
+
+
+
+
 /* index_information資訊 */
 
 
@@ -902,6 +930,23 @@ body{
 /* ------------------------------------------------------------------------------------------- */
 
 
+
+/* index_90th logo */
+
+.anniversary{
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 5%;
+  
+
+}
+
+.anniversary>img{
+  
+  max-width: 100%;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.185);
+  
+}
 
 
 /* index_information資訊 */
@@ -1570,19 +1615,10 @@ body{
   }
 
 
-
-
-
-
-
-
-
-
-
-
   }
   
 
+/* ------------------------------------------------------------------------------ */
 
 
 
