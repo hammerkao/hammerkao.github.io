@@ -10,123 +10,168 @@
 <body>
     
         <!-- 漢堡 -->
-        <nav role="navigation">
-            <div id="menuToggle">
-              <!--
-              A fake / hidden checkbox is used as click reciever,
-              so you can use the :checked selector on it.
-              -->
-              <input type="checkbox" />
-              
-              <!--
-              Some spans to act as a hamburger.
-              
-              They are acting like a real hamburger,
-              not that McDonalds stuff.
-              -->
-              <span></span>
-              <span></span>
-              <span></span>
-              
-              <!--
-              Too bad the menu has to be inside of the button
-              but hey, it's pure CSS magic.
-              -->
-              <ul id="menu">
-                <a href="#"><li>Home</li></a>
-                <a href="#"><li>About</li></a>
-                <a href="#"><li>Info</li></a>
-                <a href="#"><li>Contact</li></a>
-                <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
-              </ul>
-            </div>
-          </nav>
-    
+    <!-- 漢堡 -->
+
+    <div class="Mheader" >
+
+      <nav role="navigation" >
+      
+      <div id="menuToggle" >
+
+          
+        <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+        <input type="checkbox" />
+
+        <!--
+        Some spans to act as a hamburger.
+        
+        They are acting like a real hamburger,
+        not that McDonalds stuff.
+        -->
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <!--
+        Too bad the menu has to be inside of the button
+        but hey, it's pure CSS magic.
+        -->
+        <ul id="menu">
+          <a href="./index.html"><li>Home</li></a>
+          <a href="./type_web.html"><li>Type</li></a>
+          <a href="./Services_web.html"><li>Services</li></a>
+          <a href="./About_us_web.html"><li>About us</li></a>
+        
+        </ul>
+        
+       </div>
+
+       </nav>
+
+       <div class="MheaderLogo">
+          <a href="./index.html">
+          <img src="./photo/LOGO2.png" style="
+          width: 150px;
+          height: 35px;
+          display: block;
+          padding-top: 20px;
+          ">
+          </img>
+           </a>    
+      </div>   
+
+
+      <span style=" 
+      padding: 22px 20px 0 0 ;
+      color: white;">
+          <a href="./sign.html">
+         <img src="./photo/singin-M.png" style="
+         display: block;
+         padding-right: 5px;
+         width: 30px;
+         height: 27px;"> 
+         </img>
+           </a>
+     </span>    
+     
+   </div>
     
         <body>
    <!-- 網頁版表單 -->
-   <div  class="menu" style="
-   position: sticky;
-   top:0;
-   box-shadow:0 1px 10px rgb(0, 0, 0, 0.3);
-   background-color: rgb(207, 184, 124);
-   height: 80px;
-   
-   ">
-   
-   <a href="./index.html">
-   <img src="./photo/LOGO2.png" style="
-   width: 150px;
-   height: 35px;
-   display: block;
-   padding: 25px 0 0 40px;
-   ">
-   </img>
-   </a>
-   
+  <div  class="menu" style="
+  position: sticky;
+  top:0;
+  z-index: 1;
+  box-shadow:0 1px 10px rgb(0, 0, 0, 0.3);
+  background-color: rgb(207, 184, 124);
+  height: 80px;
+  
+  ">
+  
+  <a href="./index.html">
+  <img src="./photo/LOGO2.png" style="
+  width: 150px;
+  height: 35px;
+  display: block;
+  padding: 25px 0 0 40px;
+  ">
+  </img>
+  </a>
+  
 
-   <ul style="    
-   list-style: none;
-   padding-top:35px;
-   /* border: 2px solid rgb(255, 0, 153); */
-   margin: 0 auto;
-   display: flex;">
+  <ul class="HeaderMenu" style="    
+  list-style: none;
+  padding-top:35px;
+  margin: 0 auto;
+  display: flex;"
+  >
 
-           <a href="#"  style=" 
+          <a href="./index.html"  style=" 
+          padding: 0pt 50px;
+          text-decoration:none;
+          font-family: Arial, Helvetica, sans-serif;
+          "><li>Home</li></a>
+
+          <a href="./type_web.html"  style=" 
+          padding: 0pt 50px;
+          text-decoration:none;
+          
+          font-family: Arial, Helvetica, sans-serif;
+          "><li>Type</li></a>
+
+          <a href="./Services_web.html"  style=" 
+          padding: 0pt 50px;
+          text-decoration:none;
+          
+          font-family: Arial, Helvetica, sans-serif;
+          "><li>Services</li></a>
+
+           <a href="./About_us_web.html"  style=" 
            padding: 0pt 50px;
            text-decoration:none;
-           color: rgb(255, 255, 255);
+           
            font-family: Arial, Helvetica, sans-serif;
-           "><li>Home</li></a>
+           "><li>About us</li></a>
+  </ul>
 
-           <a href="./type_web.html"  style=" 
-           padding: 0pt 50px;
-           text-decoration:none;
-           color: rgb(255, 255, 255);
-           font-family: Arial, Helvetica, sans-serif;
-           "><li>Type</li></a>
-
-           <a href="./Services_web.html"  style=" 
-           padding: 0pt 50px;
-           text-decoration:none;
-           color: rgb(255, 255, 255);
-           font-family: Arial, Helvetica, sans-serif;
-           "><li>Services</li></a>
-
-            <a href="./About_us_web.html"  style=" 
-            padding: 0pt 50px;
-            text-decoration:none;
-            color: rgb(255, 255, 255);
-            font-family: Arial, Helvetica, sans-serif;
-            "><li>About us</li></a>
-   </ul>
-
-       <span style=" 
-        display: flex;
-        padding:35px 100px 0 0 ;
-        color: rgb(46, 46, 46);">
-           <img src="./photo/Group-1-2.png" style="
-           display: block;
-           padding-right: 5px;
-           width: 16px;
-           height: 16px;"> 
-           </img>
-           <p style="padding-bottom: 200px;
-                     font-family: Arial, Helvetica, sans-serif;
-           ">Sign in</p>
-       </span>    
-       
-
-        
-   </div>
+      <span class="SingIn" style=" 
+       display: flex;
+       padding:35px 20px 0 0 ;
+       list-style: none;
+       ">
+      
+          <a href="./sign.html"  style=" 
+          padding: 0pt 50px;
+          text-decoration:none;
+          font-family: Arial, Helvetica, sans-serif;
+          color: rgb(46, 46, 46);
+          "><li>Sing in</li></a>
+          
+      </span>   
+  </div>
         
 
 
+    
+
+    
+    <div style="
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    /* border: 1px solid rebeccapurple; */
+    
+    ">
             <div style="
             margin-top: 20vh;
             padding: 0 5vh 0 5vh;
-            display: block;
-  
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10vh;
             
             ">
                 <h1  style="
@@ -158,42 +203,50 @@
                  font-size: 15pt;
 
                 ">
-                <h2 style="text-align: center;
+                <h2 style="
+                 text-align: center;
                  display: flex;
                  flex-direction: column;
-                justify-content: center;
-                
+                 justify-content: center;
+
                  border-radius: 40px;
                  border: 0.1px solid rgb(172, 172, 172);
                  width: 30vh;
                  height: 8vh;
                  margin: 0 auto;
                  margin-top: 8vh;
+                 
                  ">Continue</h2>
 
-
-            </div>
-
-
+          </div>
+           
 
 
-            <div style="
-            display: flex;
-            background-color: rgb(94, 94, 94);
-            height: 130px;
-            align-items: center;
-            margin-top: 100px;
-            ">
+
+
+          <div style="
+          display: flex;
+          background-color: rgb(207, 184, 124);
+          height: 90px;
+          align-items: center;">
+          <p style="  
+          text-align: center;
+          color: white;
+          font-size: 0.5rem;
+          padding: 0 20px;
+          margin: 0 auto;">© 2022 Reliance Network and top group. All rights reserved. U.S. Reg. Copyright TX-5-910-991, TX-5-910-992, TX-5-910-993, and TX-5-910-994.<br>
+              Equal Housing Opportunity.<br>
+              Our Commitment to Accessibility<br></p>
+  
+      </div>
+        
+    </div>
+
     
-            <p style="  
-            text-align: center;
-            color: white;
-            margin: 0 auto;">© 2022 Reliance Network and top group. All rights reserved. U.S. Reg. Copyright TX-5-910-991, TX-5-910-992, TX-5-910-993, and TX-5-910-994.<br>
-                Equal Housing Opportunity.<br>
-                Our Commitment to Accessibility<br></p>
     
-        </div>
-    
+
+
+   
 
 
 </body>

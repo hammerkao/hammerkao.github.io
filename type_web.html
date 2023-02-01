@@ -14,18 +14,14 @@
 
 
 <body>
-
-     <!-- 漢堡 -->
-
+    <!-- 漢堡 -->
 
      <div class="Mheader" >
 
-    
         <nav role="navigation" >
         
         <div id="menuToggle" >
 
-            
             
           <!--
           A fake / hidden checkbox is used as click reciever,
@@ -33,8 +29,6 @@
           -->
           <input type="checkbox" />
 
-  
-          
           <!--
           Some spans to act as a hamburger.
           
@@ -45,17 +39,16 @@
           <span></span>
           <span></span>
   
-          
           <!--
           Too bad the menu has to be inside of the button
           but hey, it's pure CSS magic.
           -->
           <ul id="menu">
-            <a href="#"><li>Home</li></a>
-            <a href="#"><li>About</li></a>
-            <a href="#"><li>Info</li></a>
-            <a href="#"><li>Contact</li></a>
-            <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+            <a href="./index.html"><li>Home</li></a>
+            <a href="./type_web.html"><li>Type</li></a>
+            <a href="./Services_web.html"><li>Services</li></a>
+            <a href="./About_us_web.html"><li>About us</li></a>
+          
           </ul>
           
          </div>
@@ -63,110 +56,108 @@
          </nav>
 
          <div class="MheaderLogo">
+            <a href="./index.html">
             <img src="./photo/LOGO2.png" style="
             width: 150px;
             height: 35px;
             display: block;
             padding-top: 20px;
             ">
-            </img>    
+            </img>
+             </a>    
         </div>   
 
 
         <span style=" 
         padding: 22px 20px 0 0 ;
         color: white;">
+            <a href="./sign.html">
            <img src="./photo/singin-M.png" style="
            display: block;
            padding-right: 5px;
            width: 30px;
            height: 27px;"> 
            </img>
-
-       </span>    
+             </a>
+       </span>   
        
      </div>
 
 
    
-   <!-- 網頁版表單 -->
-   <div  class="menu" style="
-   position: sticky;
-   top:0;
-   box-shadow:0 1px 10px rgb(0, 0, 0, 0.3);
-   background-color: rgb(207, 184, 124);
-   height: 80px;
-   z-index: 3;
-   
-   ">
-   
-
-   <a href="./index.html">
-    <img src="./photo/LOGO2.png" style="
-    width: 150px;
-    height: 35px;
-    display: block;
-    padding: 25px 0 0 40px;
-    ">
-    </img>
-    </a>
-
-   
-
-   <ul style="    
-   list-style: none;
-   padding-top:35px;
-   /* border: 2px solid rgb(255, 0, 153); */
-   margin: 0 auto;
-   display: flex;">
-
-           <a href="./index.html"  style=" 
-           padding: 0pt 50px;
-           text-decoration:none;
-           color: rgb(255, 255, 255);
-           font-family: Arial, Helvetica, sans-serif;
-           "><li>Home</li></a>
-
-           <a href="./type_web.html"  style=" 
-           padding: 0pt 50px;
-           text-decoration:none;
-           color: rgb(46, 46, 46);
-           font-family: Arial, Helvetica, sans-serif;
-           "><li>Type</li></a>
-
-           <a href="./Services_web.html"  style=" 
-           padding: 0pt 50px;
-           text-decoration:none;
-           color: rgb(255, 255, 255);
-           font-family: Arial, Helvetica, sans-serif;
-           "><li>Services</li></a>
-
-            <a href="./About_us_web.html"  style=" 
-            padding: 0pt 50px;
-            text-decoration:none;
-            color: rgb(255, 255, 255);
-            font-family: Arial, Helvetica, sans-serif;
-            "><li>About us</li></a>
-   </ul>
-
-       <span style=" 
-        display: flex;
-        padding:35px 100px 0 0 ;
-        color: white;">
-           <img src="./photo/Group 1.png" style="
-           display: block;
-           padding-right: 5px;
-           width: 16px;
-           height: 16px;"> 
-           </img>
-           <p style="padding-bottom: 200px;
-                     font-family: Arial, Helvetica, sans-serif;
-           ">Sign in</p>
-       </span>    
-       
-
-        
-   </div>
+      <!-- 網頁版表單 -->
+      <div  class="menu" style="
+      position: sticky;
+      top:0;
+      z-index: 1;
+      box-shadow:0 1px 10px rgb(0, 0, 0, 0.3);
+      background-color: rgb(207, 184, 124);
+      height: 80px;
+      
+      ">
+      
+      <a href="./index.html">
+      <img src="./photo/LOGO2.png" style="
+      width: 150px;
+      height: 35px;
+      display: block;
+      padding: 25px 0 0 40px;
+      ">
+      </img>
+      </a>
+      
+  
+      <ul class="HeaderMenu" style="    
+      list-style: none;
+      padding-top:35px;
+      margin: 0 auto;
+      display: flex;"
+      >
+  
+              <a href="./index.html"  style=" 
+              padding: 0pt 50px;
+              text-decoration:none;
+              font-family: Arial, Helvetica, sans-serif;
+              "><li>Home</li></a>
+  
+              <a href="#"  style=" 
+              padding: 0pt 50px;
+              text-decoration:none;
+              color: rgb(46, 46, 46);
+              font-family: Arial, Helvetica, sans-serif;
+              "><li>Type</li></a>
+  
+              <a href="./Services_web.html"  style=" 
+              padding: 0pt 50px;
+              text-decoration:none;
+              
+              font-family: Arial, Helvetica, sans-serif;
+              "><li>Services</li></a>
+  
+               <a href="./About_us_web.html"  style=" 
+               padding: 0pt 50px;
+               text-decoration:none;
+               font-family: Arial, Helvetica, sans-serif;
+               "><li>About us</li></a>
+      </ul>
+  
+          <span class="SingIn" style=" 
+           display: flex;
+           padding:35px 20px 0 0 ;
+           list-style: none;
+           ">
+          
+              <a href="./sign.html"  style=" 
+              padding: 0pt 50px;
+              text-decoration:none;
+              font-family: Arial, Helvetica, sans-serif;
+              "><li>Sing in</li></a>
+              
+          </span>    
+          
+  
+           
+      </div>
     
         <div style="
     background-repeat: no-repeat;
@@ -206,82 +197,63 @@
             margin: 0 auto;
     ">
 
-
-        <div class="one" style="
-            position: relative
-            ">
-
-
-            <img src="photo/new_york.jpg" style="
-            display: block;"> 
-
+        <a href="./product.html">
+        <div class="one" style="position: relative">
+            
+            <img src="photo/new_york.jpg" style=" display: block;"> 
+            
             <div class="one_Hover" style=" ">
                 At Innovation Way, Top group has built a unique showcase for the latest in energy efficiency, healthy living and smart home technology.    
             </div>
 
-            <p style=" 
-            padding: 30px 0;
+            <p style=" padding: 30px 0;
             ">New York</p>
 
         </div>    
+        </a>
 
-        <div class="two" style="
-            position: relative;
-            ">
 
-            <img src="photo/Pennsylvania.png" style="
-            display: block;">
+        <a href="./product.html">
+        <div class="two" style="position: relative; ">
+
+            <img src="photo/Pennsylvania.png" style=" display: block;">
 
             <div class="two_Hover" style=" ">
                 The two homes on Top group  are at the intersection of technology and sustainable living, with products designed to make the homes of the future healthier, smarter and more comfortable.  
             </div>
 
-
             <p style="
             padding: 30px 0;
             ">Pennsylvania</p>
         </div>   
+        </a>
 
-
-        <div class="three"  style="
-            position: relative;
-            ">
-            <img src="photo/Florida.jpg" style="
-            
-            display: block;">
+        <a href="./product.html">
+        <div class="three"  style="position: relative;">
+            <img src="photo/Florida.jpg" style="display: block;">
 
             <div class="three_Hover" style=" ">
             Both the Home Integration System and the Charge Station Pro are built right into the Pulte home. Click here to see how it works.
             </div>
 
-             <p style=" 
-            padding: 30px 0;
+             <p style="padding: 30px 0;
             ">Florida</p>
 
         </div>   
+        </a>
 
-        <div class="four" style="
-            position: relative;
-
-
-        ">
-            <img src="photo/Texas.jpg" style="
-            display: block;
-            ">
+        <a href="./product.html">
+        <div class="four" style="position: relative; ">
+            <img src="photo/Texas.jpg" style="display: block;">
 
             <div class="four_Hover" style=" ">
                 Top group incorporates many energy efficient practices and “green” products in our new home communities across the country.
             </div>
 
-            <p style=" 
-            
-            padding: 30px 0;
-            
-            
-            ">Texas</p>
+            <p style=" padding: 30px 0;">Texas</p>
         </div>   
-
-
+        </a>
+        
     </div>
 
     <div style="

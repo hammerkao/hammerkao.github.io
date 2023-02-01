@@ -16,15 +16,21 @@
 
 <body>
 
-       <!-- 漢堡 -->
-       <nav role="navigation">
-        <div id="menuToggle">
+     <!-- 漢堡 -->
+
+     <div class="Mheader" >
+
+        <nav role="navigation" >
+        
+        <div id="menuToggle" >
+
+            
           <!--
           A fake / hidden checkbox is used as click reciever,
           so you can use the :checked selector on it.
           -->
           <input type="checkbox" />
-          
+
           <!--
           Some spans to act as a hamburger.
           
@@ -34,124 +40,126 @@
           <span></span>
           <span></span>
           <span></span>
-          
+  
           <!--
           Too bad the menu has to be inside of the button
           but hey, it's pure CSS magic.
           -->
           <ul id="menu">
-            <a href="#"><li>Home</li></a>
-            <a href="#"><li>About</li></a>
-            <a href="#"><li>Info</li></a>
-            <a href="#"><li>Contact</li></a>
-            <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+            <a href="./index.html"><li>Home</li></a>
+            <a href="./type_web.html"><li>Type</li></a>
+            <a href="./Services_web.html"><li>Services</li></a>
+            <a href="./About_us_web.html"><li>About us</li></a>
+          
           </ul>
-        </div>
-      </nav>
+          
+         </div>
 
-<body>
+         </nav>
 
- <!-- 網頁版表單 -->
- <div  class="menu" style="
- position: sticky;
- top:0;
- box-shadow:0 1px 10px rgb(0, 0, 0, 0.3);
- background-color: rgb(207, 184, 124);
- height: 80px;
- z-index: 3;
- 
- ">
- 
+         <div class="MheaderLogo">
+            <a href="./index.html">
+            <img src="./photo/LOGO2.png" style="
+            width: 150px;
+            height: 35px;
+            display: block;
+            padding-top: 20px;
+            ">
+            </img>
+             </a>    
+        </div>   
 
- <a href="./index.html">
-  <img src="./photo/LOGO2.png" style="
-  width: 150px;
-  height: 35px;
-  display: block;
-  padding: 25px 0 0 40px;
-  ">
-  </img>
-  </a>
 
- 
+        <span style=" 
+        padding: 22px 20px 0 0 ;
+        color: white;">
+            <a href="./sign.html">
+           <img src="./photo/singin-M.png" style="
+           display: block;
+           padding-right: 5px;
+           width: 30px;
+           height: 27px;"> 
+           </img>
+             </a>
+       </span>    
+       
+     </div>
 
- <ul style="    
- list-style: none;
- padding-top:35px;
- /* border: 2px solid rgb(255, 0, 153); */
- margin: 0 auto;
- display: flex;">
 
-         <a href="./index.html"  style=" 
-         padding: 0pt 50px;
-         text-decoration:none;
-         color: rgb(255, 255, 255);
-         font-family: Arial, Helvetica, sans-serif;
-         "><li>Home</li></a>
 
-         <a href="./type_web.html"  style=" 
-         padding: 0pt 50px;
-         text-decoration:none;
-         color: rgb(255, 255, 255);
-         font-family: Arial, Helvetica, sans-serif;
-         "><li>Type</li></a>
+    <!-- 網頁版表單 -->
+    <div  class="menu" style="
+    position: sticky;
+    top:0;
+    z-index: 1;
+    box-shadow:0 1px 10px rgb(0, 0, 0, 0.3);
+    background-color: rgb(207, 184, 124);
+    height: 80px;
+    
+    ">
+    
+    <a href="./index.html">
+    <img src="./photo/LOGO2.png" style="
+    width: 150px;
+    height: 35px;
+    display: block;
+    padding: 25px 0 0 40px;
+    ">
+    </img>
+    </a>
+    
 
-         <a href="./Services_web.html"  style=" 
-         padding: 0pt 50px;
-         text-decoration:none;
-         color: rgb(255, 255, 255);
-         font-family: Arial, Helvetica, sans-serif;
-         "><li>Services</li></a>
+    <ul class="HeaderMenu" style="    
+    list-style: none;
+    padding-top:35px;
+    margin: 0 auto;
+    display: flex;"
+    >
 
-          <a href="./About_us_web.html"  style=" 
-          padding: 0pt 50px;
-          text-decoration:none;
-          color: rgb(255, 255, 255);
-          font-family: Arial, Helvetica, sans-serif;
-          "><li>About us</li></a>
- </ul>
+            <a href="#"  style=" 
+            padding: 0pt 50px;
+            text-decoration:none;
+            color: rgb(46, 46, 46);
+            font-family: Arial, Helvetica, sans-serif;
+            "><li>Home</li></a>
 
-     <span style=" 
-      display: flex;
-      padding:35px 100px 0 0 ;
-      color: white;">
-         <img src="./photo/Group 1.png" style="
-         display: block;
-         padding-right: 5px;
-         width: 16px;
-         height: 16px;"> 
-         </img>
-         <p style="padding-bottom: 200px;
-                   font-family: Arial, Helvetica, sans-serif;
-         ">Sign in</p>
-     </span>    
-     
+            <a href="./type_web.html"  style=" 
+            padding: 0pt 50px;
+            text-decoration:none;
+            
+            font-family: Arial, Helvetica, sans-serif;
+            "><li>Type</li></a>
 
-      
- </div>
+            <a href="./Services_web.html"  style=" 
+            padding: 0pt 50px;
+            text-decoration:none;
+            
+            font-family: Arial, Helvetica, sans-serif;
+            "><li>Services</li></a>
 
-    <div style="
-display: block;
-background-repeat: no-repeat;
-background-image: url(./photo/sport_bg.jpg);
-background-size:cover;
-background-position: bottom;
-background-size: 100%;
-height: 40vw;
+             <a href="./About_us_web.html"  style=" 
+             padding: 0pt 50px;
+             text-decoration:none;
+             font-family: Arial, Helvetica, sans-serif;
+             "><li>About us</li></a>
+    </ul>
 
-z-index: 0;
+        <span class="SingIn" style=" 
+         display: flex;
+         padding:35px 20px 0 0 ;
+         list-style: none;
+         ">
+        
+            <a href="./sign.html"  style=" 
+            padding: 0pt 50px;
+            text-decoration:none;
+            font-family: Arial, Helvetica, sans-serif;
+            "><li>Sing in</li></a>
+            
+        </span>    
+        
 
-">
-
-    <h1 style="
-    padding-top: 15vw;
-    font-size: 4vw;
-    color:white;
-    font-style: italic;
-    text-align: center;
-    ">A tennis court is the venue where<br> the sport of tennis is played. 
-    </h1>
-
+         
     </div>
 
 
@@ -159,8 +167,9 @@ z-index: 0;
   
     <div>
         <h1 style="
-        font-size: 4vmin;
+        font-size: 2rem;
         text-align: center;
+        padding: 0 2vw;
         padding-top: 8vh;
         padding-bottom: 5vh;" >
         Tennis court  & Health clubs</h1>
