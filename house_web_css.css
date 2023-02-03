@@ -1113,12 +1113,15 @@ body{
   margin: 0 auto;
   margin-top: 5%;
   
+  /* border: 1px solid brown; */
 
 }
 
 .anniversary>img{
+  display: block;
+  width: 80%;
+  margin: 0 auto;
   
-  max-width: 100%;
   box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.185);
   
 }
@@ -1539,7 +1542,7 @@ body{
   }
 
   .two_Hover{
-    font-size: 32px;
+    font-size: 30px;
     width: 35vh;
     position: absolute;
     text-align: center;
