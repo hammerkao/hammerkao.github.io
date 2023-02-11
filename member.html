@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./house_web_css.css">
+</head>
+<body>
+    
+        <!-- 漢堡 -->
+    <!-- 漢堡 -->
+
+    <div class="Mheader" >
+
+      <nav role="navigation" >
+      
+      <div id="menuToggle" >
+
+          
+        <!--
+        A fake / hidden checkbox is used as click reciever,
+        so you can use the :checked selector on it.
+        -->
+        <input type="checkbox" />
+
+        <!--
+        Some spans to act as a hamburger.
+        
+        They are acting like a real hamburger,
+        not that McDonalds stuff.
+        -->
+        <span></span>
+        <span></span>
+        <span></span>
+
+        <!--
+        Too bad the menu has to be inside of the button
+        but hey, it's pure CSS magic.
+        -->
+        <ul id="menu">
+          <a href="./index.html"><li>Home</li></a>
+          <a href="./type_web.html"><li>Type</li></a>
+          <a href="./Services_web.html"><li>Services</li></a>
+          <a href="./About_us_web.html"><li>About us</li></a>
+        
+        </ul>
+        
+       </div>
+
+       </nav>
+
+       <div class="MheaderLogo">
+          <a href="./index.html">
+          <img src="./photo/LOGO2.png" style="
+          width: 150px;
+          height: 35px;
+          display: block;
+          padding-top: 20px;
+          ">
+          </img>
+           </a>    
+      </div>   
+
+
+      <span style=" 
+      padding: 22px 20px 0 0 ;
+      color: white;">
+          <a href="./sign.html">
+         <img src="./photo/singin-M.png" style="
+         display: block;
+         padding-right: 5px;
+         width: 30px;
+         height: 27px;"> 
+         </img>
+           </a>
+     </span>    
+     
+   </div>
+    
+        <body>
+   <!-- 網頁版表單 -->
+  <div  class="menu" style="
+  position: sticky;
+  top:0;
+  z-index: 1;
+  box-shadow:0 1px 10px rgb(0, 0, 0, 0.3);
+  background-color: rgb(207, 184, 124);
+  height: 80px;
+  
+  ">
+  
+  <a href="./index.html">
+  <img src="./photo/LOGO2.png" style="
+  width: 150px;
+  height: 35px;
+  display: block;
+  padding: 25px 0 0 40px;
+  ">
+  </img>
+  </a>
+  
+
+  <ul class="HeaderMenu" style="    
+  list-style: none;
+  padding-top:35px;
+  margin: 0 auto;
+  display: flex;"
+  >
+
+          <a href="./index.html"  style=" 
+          padding: 0pt 50px;
+          text-decoration:none;
+          font-family: Arial, Helvetica, sans-serif;
+          "><li>Home</li></a>
+
+          <a href="./type_web.html"  style=" 
+          padding: 0pt 50px;
+          text-decoration:none;
+          
+          font-family: Arial, Helvetica, sans-serif;
+          "><li>Type</li></a>
+
+          <a href="./Services_web.html"  style=" 
+          padding: 0pt 50px;
+          text-decoration:none;
+          
+          font-family: Arial, Helvetica, sans-serif;
+          "><li>Services</li></a>
+
+           <a href="./About_us_web.html"  style=" 
+           padding: 0pt 50px;
+           text-decoration:none;
+           
+           font-family: Arial, Helvetica, sans-serif;
+           "><li>About us</li></a>
+  </ul>
+
+      <span class="SingIn" style=" 
+       display: flex;
+       padding:35px 20px 0 0 ;
+       list-style: none;
+       ">
+      
+          <a href="./sign.html"  style=" 
+          padding: 0pt 50px;
+          text-decoration:none;
+          font-family: Arial, Helvetica, sans-serif;
+          color: rgb(46, 46, 46);
+          "><li>Sing in</li></a>
+          
+      </span>   
+  </div>
+        
+
+
+    
+
+    
+    <div style="
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    /* border: 1px solid rebeccapurple; */
+    
+    ">
+        <div class="wrapper" style="	
+            display: flex;
+            flex-direction: column;   
+            margin: 0 auto;     
+            margin-top: 20vh;
+            padding: 0 5vh 0 5vh;
+            margin-bottom: 10vh;
+            /* border: 1px solid red ;         */
+                    
+                    ">
+    
+        
+            <div class="main" style="
+                font-size: 1.5rem;
+                
+                ">
+              <h1>Member Centre</h1>
+              
+              <ul style=" 
+                    list-style: none;
+                    margin-top: 30px;
+                    " >
+
+                     <!-- ID -->
+                  <li style="" >
+                        <p style="" >ID</p>
+                        <input class="name" type="text"  
+                        style=" display: block;
+                        text-align: center;
+                        border: 0;
+                        border-bottom: 1px solid rgb(109, 109, 109);  
+                        font-size: 15pt;
+                                        
+                        " />
+                        </li>
+
+
+                <!-- 姓名 -->
+                <li style="margin-top: 30px;" >
+                  <p style="" >Name</p>
+                  <input class="name" type="text"  
+                  style=" display: block;
+                  text-align: center;
+                  border: 0;
+                  border-bottom: 1px solid rgb(109, 109, 109);  
+                  font-size: 15pt;
+                  
+                  " />
+                </li>
+                <!-- 電話 -->
+                <li style="margin-top: 30px;">
+                  <p style="" >Phone</p>
+                  <input class="phone" type="text"                  
+                  style=" display: block;
+                  text-align: center;
+                  border: 0;
+                  border-bottom: 1px solid rgb(109, 109, 109);  
+                  font-size: 15pt;" />
+                </li>
+                <!-- 地址 -->
+                <li style="margin-top: 30px;">
+                  <p style="" >Address</p>
+                  <input class="address" type="text"
+                  style=" display: block;
+                  text-align: center;
+                  border: 0;
+                  border-bottom: 1px solid rgb(109, 109, 109);  
+                  font-size: 15pt;" />
+                </li>
+                <!-- 姓別 -->
+                <li style="margin-top: 30px;">
+                  <p>Gender</p>
+                  <input class="male" type="radio" name="xx" />
+                  <span>Male</span>
+                  <input class="female" type="radio" name="xx" />
+                  <span>Female</span>
+                </li>
+                <!-- 訂閱 -->
+                <li style="margin-top: 30px;">
+                  <p>Subscribe</p>
+                  <input type="checkbox" />
+                  <span>Email me!</span>
+                </li>
+                <!-- 建議 -->
+                <!-- <li style="margin-top: 30px;">
+                  <p>Suggest</p>
+                  <textarea                   
+                  style=" display: block;
+                  text-align: center;
+                  border: 0;
+                  border-bottom: 1px solid rgb(109, 109, 109);  
+
+                  font-size: 15pt;" >
+                  </textarea>
+                </li> -->
+                <!-- 送出 -->
+                <li style="margin-top: 30px;">
+                  <input class="send" type="submit" value="Save" />
+                </li>
+        
+              </ul>
+            </div>
+        
+          </div>
+           
+
+
+
+
+          <div style="
+          display: flex;
+          background-color: rgb(207, 184, 124);
+          height: 90px;
+          align-items: center;">
+          <p style="  
+          text-align: center;
+          color: white;
+          font-size: 0.5rem;
+          padding: 0 20px;
+          margin: 0 auto;">© 2022 Reliance Network and top group. All rights reserved. U.S. Reg. Copyright TX-5-910-991, TX-5-910-992, TX-5-910-993, and TX-5-910-994.<br>
+              Equal Housing Opportunity.<br>
+              Our Commitment to Accessibility<br></p>
+  
+      </div>
+        
+    </div>
+
+    
+    
+
+
+   
+
+
+</body>
+</html>
